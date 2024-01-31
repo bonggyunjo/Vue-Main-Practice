@@ -15,53 +15,56 @@
   box-sizing: border-box;
  }
 
- .black-bg{
-  width : 100%; height : 100%;
-  background :rgba(0,0,0,0,5);
-  position : fixed;
-  padding: 20px;
- }
-
- .white-bg{
-  width:100%; background: white;
-  border-radius: 8px;
-  padding:20px;
- }
  .menu {
   width:100%;
   background: white;
-  padding :  50px;
+  padding : 50px;
   border-radius: 5px;
-  float:left;
  }
  
  .menu a:nth-child(1) {
  position: relative;
  left:-210px; 
  }
-.menu a:last-child {
+
+#header-board-write {
   position: relative;
-  left:110px;
+  left: 440px;
+  top: -148px;
   border-radius: 11px;  
   border-color: black;
-  background-color: whitesmoke;  
-  padding:15px;
-  font-size: 15px;
-}
+  font-size: 16px;
+  font-weight: bolder;
+ }  
+ #header-board-write button {
+ background-color: whitesmoke;
+ border-color: whitesmoke;
+ color:black;
+ font-weight: bolder;
+ }
+
  .menu a{
   position: relative;
   left:-140px;
   color: black;
-  padding: 20px;
-  font-size: 19px;
+  padding: 17px;
+  font-size: 17.5px;
+  text-decoration: none;
  }
+
+ 
+ .menu a:hover, #header-board-write button:hover{
+  color:#1F8D2D;
+  font-weight: bolder;
+ }
+
  .scrap-image, .mypage-image{
   width: 58px;
   height: 58px;
   position: relative;
   top:-50px;
-  left:245px;
-  padding:8px;
+  left: 275px;
+  padding:10px;
  }
 
  .alarm-image{
@@ -69,7 +72,7 @@
   height: 60px;
   position: relative;
   top:-50px;
-  left:245px;
+  left:275px;
   padding:8px;
  }
  .banner {
@@ -87,7 +90,7 @@
     text-align: center;
     top:50px;
     position: relative;
-    width:90%;
+    width:80%;
     height:500px;
 }
 .card-list{ 
@@ -98,7 +101,7 @@
     
 }
 .card {
-    width: 16rem;
+    width: 23%;
     min-height: 14rem; 
 }
 
